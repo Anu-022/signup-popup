@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #767676;
+    color: #fff;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hero-text {
+    margin-top: 50px;
+    margin-left: 60px;
+}
+h1 {
+    font-size: 45px;
+    line-height: 45px;
+}
+h3 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+.hero-text p {
+    font-size: 20px;
+    margin-top: 20px;
+    color: orange;
+}
+.underline {
+    text-decoration: solid underline orange 10px
+}
+.signup-link {
+    color: #fff;
+}
+.open-form {
+    display: none ;
+    position: fixed;
+    width: 100%;
+    top: 80px;
+}
+.form-div {
+    width: 80%;
+    height: 550px;
+    display: flex;
+    margin: auto;
+    position: relative;
+}
+.close-btn {
+    position: absolute;
+    right: 9%;
+    top: -12px;
+    color: #fff;
+    background: orange;
+    z-index: 100;
+    border-radius: 50%;
+    padding: 12px;
+    outline: none;
+    border: none;
+}
+.form-container {
+    flex-basis: 50%;
+    background: #ddd;
+    padding-bottom: 20px;
+}
+.form {
+    background: #fff;
+    margin: auto;
+    width: 90%;
+    height: 500px;
+    border-radius: 5px;
+    color: #000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+    
+}
+.img-div {
+    flex-basis: 50%;
+    background-image: url("./assets/tech-woman.jpg");
+    background-size: cover;
+    background-position: bottom center;
+}
+.input-details {
+    margin-left: 15px;
+}
+.input-details + .input-details {
+    margin-top: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input {
+    height: 35px;
+    display: block;
+    width: 95%;
+    padding: 10px;
+}
+.submit-btn {
+  margin-top: 20px;
+  margin-left: 15px;
+  padding: 20px 50px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  background: orange;
+  color: #fff;
+  font-size: 16px;
+  line-height: 15px;
+}
+.blur {
+    filter: blur(5px)
+}
